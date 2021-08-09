@@ -6,7 +6,8 @@ func main(){
 
 	fmt.Println("Hello World!")
    
-	exArray()
+	//exArray()
+	exSlice()
 
 
 }
