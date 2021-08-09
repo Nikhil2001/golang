@@ -70,7 +70,31 @@ func exSlice(){
 
 	fmt.Println(intSlice2d_2,len(intSlice2d_2), cap(intSlice2d_2))
 
+
 /* OUTPUT
+
+nikhil@nikhil:~/golang$ go run src/slice.go src/main.go 
+Hello World!
+[]
+[0 1]
+[0 1 4 5 6] 5 6
+[0 1 4 5 6 7] 6 6
+[0 1 4 5 6 7 8] 7 12
+[0 0 0] 3 3
+[0 0 0 8] 4 6
+[] 0 0
+[0 0 0 8] 4 4
+[i am a go programmer .] 6 6
+[i am a go programmer .]
+[i am a go programmer]
+[i am a go programmer]
+[i am a go programmer .]
+[[1] [1 2] [1 2 3]] 3 3
+[1 2 3]
+[[1] [1 2] [1 2 3] [1 2 3 4]] 4 6
+[[0] [0 1] [0 1 2]] 3 4
+nikhil@nikhil:~/golang$ 
+
 */
 
 }
