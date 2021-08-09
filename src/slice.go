@@ -70,6 +70,7 @@ func exSlice(){
 
 	fmt.Println(intSlice2d_2,len(intSlice2d_2), cap(intSlice2d_2))
 
+
 /* OUTPUT
 */
 
