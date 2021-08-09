@@ -3,4 +3,5 @@
 Topics
 <ol>
 <li>Arrays</li>
+<li>Slices</li>
 </ol>
