@@ -8,7 +8,8 @@ func main(){
    
 	//exArray()
 	//exSlice()
-	exMap()
+	//exMap()
+	exStruct()
 
 
 }
