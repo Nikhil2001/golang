@@ -27,4 +27,17 @@ func exStruct(){
 
 	person4 := person{height:30}
 	fmt.Println(person4)
+
+/*OUTPUT
+
+nikhil@nikhil:~/golang$ go run src/main.go src/structs.go 
+Hello World!
+{0 0}
+{70 182}
+{30 70}
+{70 30}
+{0 30}
+
+*/
+
 }
