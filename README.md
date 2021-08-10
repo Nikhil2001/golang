@@ -6,4 +6,5 @@ Topics
 <li>Slice</li>
 <li>map</li>
 <li>structs</li>
+<li>LinkedList</li>
 </ol>

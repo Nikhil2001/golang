@@ -9,7 +9,7 @@ func main(){
 	//exArray()
 	//exSlice()
 	//exMap()
-	exStruct()
-
+	//exStruct()
+	exLinkedList()
 
 }
