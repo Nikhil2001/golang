@@ -2,6 +2,7 @@
 
 Topics
 <ol>
-<li>Arrays</li>
-<li>Slices</li>
+<li>Array</li>
+<li>Slice</li>
+<li>map</li>
 </ol>
