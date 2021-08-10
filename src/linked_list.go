@@ -97,4 +97,41 @@ func exLinkedList(){
 
 
 	list1.printList()
+
+
+
+/*output
+
+nikhil@nikhil:~/golang$ go run src/main.go src/linked_list.go 
+Hello World!
+Elements of list
+1 <nil>
+End
+Elements of list
+2 &{1 <nil>}
+1 <nil>
+End
+1 <nil>
+Elements of list
+2 &{1 0xc000010270}
+1 &{3 <nil>}
+3 <nil>
+End
+3 <nil>
+1 &{3 <nil>}
+2 &{1 0xc000010270}
+3 <nil>
+Elements of list
+2 &{1 0xc000010270}
+1 &{3 <nil>}
+3 <nil>
+End
+Elements of list
+2 &{1 0xc0000102e0}
+1 &{4 0xc000010270}
+4 &{3 <nil>}
+3 <nil>
+End
+
+/*
 }
