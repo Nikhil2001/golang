@@ -7,4 +7,5 @@ Topics
 <li>map</li>
 <li>structs</li>
 <li>LinkedList</li>
+<li>DoublyLinkedList</li>
 </ol>

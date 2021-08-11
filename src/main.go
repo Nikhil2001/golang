@@ -10,6 +10,7 @@ func main(){
 	//exSlice()
 	//exMap()
 	//exStruct()
-	exLinkedList()
+	//exLinkedList()
+	exDoublyLinkedList()
 
 }
