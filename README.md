@@ -8,4 +8,5 @@ Topics
 <li>structs</li>
 <li>LinkedList</li>
 <li>DoublyLinkedList</li>
+<li>stack</li> 
 </ol>
