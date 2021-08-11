@@ -9,4 +9,5 @@ Topics
 <li>LinkedList</li>
 <li>DoublyLinkedList</li>
 <li>stack</li> 
+<li>tuples</li> 
 </ol>

@@ -12,5 +12,6 @@ func main(){
 	//exStruct()
 	//exLinkedList()
 	//exDoublyLinkedList()
-    exStack()
+    //exStack()
+	exTuple()
 }
