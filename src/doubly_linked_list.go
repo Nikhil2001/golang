@@ -63,5 +63,17 @@ func exDoublyLinkedList() {
   list.head.print()
   list.head.next.print()
  
+/*output 
 
+nikhil@nikhil:~/golang$ go run src/main.go src/doubly_linked_list.go 
+Hello World!
+1 <nil> <nil>
+1 <nil> &{2 0xc00000c030 <nil>}
+2 &{1 <nil> 0xc00000c048} <nil>
+2 <nil> &{1 0xc00000c090 0xc00000c048}
+1 &{2 <nil> 0xc00000c030} &{2 0xc00000c030 <nil>}
+3 <nil> &{2 0xc00000c0f0 0xc00000c030}
+2 &{3 <nil> 0xc00000c090} &{1 0xc00000c090 0xc00000c048}
+
+*/
 }
