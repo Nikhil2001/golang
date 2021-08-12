@@ -156,7 +156,16 @@ set2.AddElement(7)
 fmt.Println(set1.intersection(&set2))
 
 
-
+/*OUTPUT
+nikhil@nikhil:~/golang$ go run src/main.go src/sets.go 
+Hello World!
+&{map[11:true 12:true 13:true 14:true 21:true 22:true 23:true 24:true]}
+&{map[1:true 2:true 3:true 4:true 5:true 7:true]}
+&{map[1:true 2:true 3:true 4:true 7:true]}
+&{map[]}
+&{map[1:true 4:true]}
+&{map[1:true 2:true 3:true]}
+*/
 
 
 }
