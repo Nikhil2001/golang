@@ -4,6 +4,7 @@ import "fmt"
 import "math"
 import ("time" //this is called factored or paranthesized import 
         "math/rand"
+		"runtime"
 )
 
 //about functions
@@ -68,8 +69,48 @@ func main() {
 	f := 1.0
 	fmt.Printf("type:%T,value %v\n",f,f)
 
-	//!TODO: do more examples with basic types and type casting
+	//!TODO: do more examples with basic types,type casting
     var u =5
 	var exInt float64 = float64(u)
 	fmt.Println(exInt)
+
+	//Loops
+	for i:=0; i < 10;i++ {
+		fmt.Println("for loop iteration:",i)
+	}
+	i =0
+	for  i < 10 { //while like loop, without bool expression, its infinite loop
+		fmt.Println("for loop iteration:",i)
+		i++
+	}
+	i =0
+	for  { //while like loop, without bool expression, its infinite loop
+		fmt.Println("infinite loop iteration:",i)
+		i++
+		if i>3 {
+			break
+		}
+	}
+
+	if k:= true; k { //k can be decalred as variable with scope with in if 
+		fmt.Println(!k)
+	}
+
+	if k:= false; k { //k can be decalred as variable with scope with in if 
+		fmt.Println("in if, k is :",k)
+	} else {
+		fmt.Println("in else, k is :",k) //k also can be used in else block as well
+	}
+ fmt.Println("operating system:",runtime.GOOS)
+ fmt.Println("Today is:",time.Tuesday==time.Now().Weekday())
+
+ switch day:=time.Now().Weekday(); day {
+ case time.Monday :
+	fmt.Println("today is",day)
+ case time.Tuesday :
+	fmt.Println("today is",day)
+  default :
+	fmt.Println("today is",day)
+ }
+ 
 }
