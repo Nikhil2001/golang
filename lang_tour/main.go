@@ -29,9 +29,9 @@ func swap(a1,b1 int)(a,b int){
 //var language string
 */
 func main() {
-
-	fmt.Println("hello world")
-	/*fmt.Print("hello ")
+	fmt.Println("GOLANG EXAMPLES")
+	/*fmt.Println("hello world")
+	fmt.Print("hello ")
 	fmt.Print("Nikhil\n")
 	fmt.Println("now the time is :",time.Now())
 
@@ -147,6 +147,8 @@ slice1[2]=22
 fmt.Println(slice,slice1) 
 pointerExamples()
 structExamples()
-arrayExamples()*/
+arrayExamples()
 sliceExamples()
+variableExamples()*/
+loopExamples()
 }
