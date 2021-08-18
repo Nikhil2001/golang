@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-import "math"
+/*import "math"
 import ("time" //this is called factored or paranthesized import 
         "math/rand"
 		"runtime"
@@ -26,12 +26,12 @@ func swap(a1,b1 int)(a,b int){
 }
 
 //variable at package level
-var language string
-
+//var language string
+*/
 func main() {
 
 	fmt.Println("hello world")
-	fmt.Print("hello ")
+	/*fmt.Print("hello ")
 	fmt.Print("Nikhil\n")
 	fmt.Println("now the time is :",time.Now())
 
@@ -113,4 +113,40 @@ func main() {
 	fmt.Println("today is",day)
  }
  
+ var p *int = &i
+ fmt.Println(*p)
+
+ type Rectangle struct {
+	 length int
+	 breadth int
+ }
+
+rectangle:=Rectangle{length:1}
+fmt.Println(rectangle)
+fmt.Println(rectangle.length,rectangle.breadth)
+rectangle1:=Rectangle{2,5}
+fmt.Println(rectangle1.length,rectangle1.breadth)
+
+rectPointer1:= &rectangle
+fmt.Println((*rectPointer1).length,rectPointer1.breadth)
+
+o:=&Rectangle{}
+fmt.Println(o)
+
+array1:=[5]int{1,2,3,4,5}
+var array2 [5]int
+fmt.Println(array1,array2[0])
+array3:=array1[1:5]
+fmt.Println(array3,cap(array3))
+
+var slice []int
+slice = []int{1,2,3,4,5}
+slice1:=slice
+fmt.Println(slice,slice1)
+slice1[2]=22
+fmt.Println(slice,slice1) 
+pointerExamples()
+structExamples()
+arrayExamples()*/
+sliceExamples()
 }
