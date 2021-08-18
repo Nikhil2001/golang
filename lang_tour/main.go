@@ -149,6 +149,7 @@ pointerExamples()
 structExamples()
 arrayExamples()
 sliceExamples()
-variableExamples()*/
-loopExamples()
+variableExamples()
+loopExamples()*/
+switchExamples()
 }
