@@ -30,4 +30,13 @@ func sliceExamples(){
 	fmt.Println(slice5,len(slice5),cap(slice5))
 	slice6 :=slice5[5]
 	fmt.Println(slice6)
+
+	var slice7 []int
+	fmt.Println(slice7,len(slice7),cap(slice7))
+	if slice7 == nil {
+		fmt.Println("empty slice")
+	}
+
+	slice8 := []int{}
+	fmt.Println(slice8,len(slice8),cap(slice8))
 }

@@ -151,6 +151,8 @@ arrayExamples()
 variableExamples()
 loopExamples()
 switchExamples()
-sliceExamples()*/
 rangeExamples()
+sliceExamples()
+*/
+mapExamples()
 }
