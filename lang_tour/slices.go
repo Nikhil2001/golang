@@ -19,5 +19,15 @@ func sliceExamples(){
 	fmt.Println(slice2,slice3)
 	slice2[0]=1
 	fmt.Println(slice2[:6],slice2[:],slice2[0:],slice2[1:4])
+	slice4:=make([]int,1)
+	fmt.Println(slice4)
+	copy(slice4,slice2)
+	fmt.Println(slice4)
 
+	slice5:=[]int{1,2,3,4,5}
+	fmt.Println(slice5,len(slice5),cap(slice5))
+	slice5 =append(slice5,6)
+	fmt.Println(slice5,len(slice5),cap(slice5))
+	slice6 :=slice5[5]
+	fmt.Println(slice6)
 }

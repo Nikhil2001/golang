@@ -148,8 +148,9 @@ fmt.Println(slice,slice1)
 pointerExamples()
 structExamples()
 arrayExamples()
-sliceExamples()
 variableExamples()
-loopExamples()*/
+loopExamples()
 switchExamples()
+sliceExamples()*/
+rangeExamples()
 }
