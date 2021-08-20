@@ -153,6 +153,7 @@ loopExamples()
 switchExamples()
 rangeExamples()
 sliceExamples()
-*/
 mapExamples()
+*/
+functionExamples()
 }
