@@ -154,6 +154,9 @@ switchExamples()
 rangeExamples()
 sliceExamples()
 mapExamples()
-*/
 functionExamples()
+methodExamples()
+}
+*/
+interfaceExamples()
 }
