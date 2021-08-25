@@ -10,7 +10,6 @@ func printNumbers(channel chan int) {
 		fmt.Println(i)
 		time.Sleep(time.Second)
 	}
-
     channel<-5
 
 }
