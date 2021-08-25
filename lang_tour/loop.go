@@ -41,5 +41,5 @@ func loopExamples() {
 		}	
 		fmt.Print(v," ")
 	}
-	fmt.Prinln()
+	fmt.Println()
 }
