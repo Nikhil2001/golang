@@ -27,6 +27,16 @@ func (s *student) editDetails(newName string,newId int){
 	s.name,s.id = newName,newId
 }
 
+type song struct {
+	 name, singer, movie string
+
+}
+
+
+func (s song) print() string{
+	return "song: "+ s.name + " singer: "+ s.singer +" movie: "+s.movie
+}
+
 func methodExamples(){
 
 	s:= student{"nikhil",1}
@@ -42,5 +52,9 @@ func methodExamples(){
 	a.details()
 	a.editDetails("mara nikhitha",1111)
 	a.details()
+
+
+	song1:= song{"vasta ne venuka","harini","nani"}
+	fmt.Println(song1.print())
 
 }
