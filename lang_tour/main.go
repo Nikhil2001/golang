@@ -156,8 +156,7 @@ sliceExamples()
 mapExamples()
 functionExamples()
 methodExamples()
-
-}
-*/
 interfaceExamples()
+*/
+constantExamples()
 }

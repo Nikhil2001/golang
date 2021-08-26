@@ -17,10 +17,8 @@ func helloWorldHandler(w http.ResponseWriter, r *http.Request){
 	fmt.Fprint(w,string(data))
 }
 
-func main(){
- 
+func main(){ 
 	port := 8080
-
 	http.HandleFunc("/helloworld",helloWorldHandler)
 	log.Printf("starting Server on %v\n",port)
 	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%v",port),nil))
