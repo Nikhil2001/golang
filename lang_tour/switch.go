@@ -47,6 +47,7 @@ func switchExamples() {
 		    fmt.Printf("k is %d\n",k)
 	case 2,4 :
 	    	fmt.Printf("k is 2 or 4\n")
+			fallthrough
 	case 3 :
 		   fmt.Printf("k is %d\n",k)
 	default:

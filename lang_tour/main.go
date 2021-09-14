@@ -150,13 +150,14 @@ structExamples()
 arrayExamples()
 variableExamples()
 loopExamples()
-switchExamples()
+
 rangeExamples()
 sliceExamples()
 mapExamples()
 functionExamples()
 methodExamples()
 interfaceExamples()
-*/
 constantExamples()
+*/
+switchExamples()
 }
